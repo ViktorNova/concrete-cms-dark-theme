@@ -58,7 +58,6 @@ This is really stupid, and I hope they change this in the future.
 
     cd ..
 
-    Remove-Item -LiteralPath "afixia-theme-basic-bedrock" -Force -Recurse
     ```
     Everything should be moved to their correct places and the repository directory should be removed now.
     You should be able to install the package / theme and go to your **basic_bedrock_build** folder and run **npm install** then **npm run prod**.
@@ -70,13 +69,12 @@ This is really stupid, and I hope they change this in the future.
     
     cd concrete-cms-dark-theme
     
-    movln -se basic_bedrock_build ../
+    ln -s basic_bedrock_build ../
 
-    move packages/theme_basic_bedrock ../packages
+    ln -s packages/theme_basic_bedrock ../packages
 
     cd ..
 
-    @RD /S /Q "afixia-theme-basic-bedrock"
     ```
     Everything should be moved to their correct places and the repository directory should be removed now.
     You should be able to install the package / theme and go to your **basic_bedrock_build** folder and run **npm install** then **npm run prod**.
