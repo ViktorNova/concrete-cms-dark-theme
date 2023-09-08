@@ -1,5 +1,4 @@
 #!/bin/bash
 
-mv basic_bedrock_build ../
-mv packages/theme_basic_bedrock ../packages
-rm -rf ../afixia-theme-basic-bedrock
+ln -s basic_bedrock_build ../public/basic_bedrock_build
+ln -s packages/theme_basic_bedrock ../public/packages/theme_basic_bedrock

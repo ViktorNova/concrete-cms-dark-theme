@@ -8,7 +8,7 @@ mix.webpackConfig({
     moment: "moment",
   },
 });
-mix.setPublicPath("../packages/theme_basic_bedrock/themes/basic_bedrock/");
+mix.setPublicPath("../../public/packages/theme_basic_bedrock/themes/basic_bedrock/");
 
 mix.sass("src/scss/app.scss", "css").js("src/js/app.js", "js");
 
