@@ -29,6 +29,9 @@ JS and CSS are setup as assets in the package controller and required in the pag
 
 ## Installation
 
+NOTE: You have to connect your site to the Marketplace before you can install a theme.
+This is really stupid, and I hope they change this in the future. 
+
 1. **Automatic Install with Shell Script**
    
    If using a Unix platform such as Linux or Mac OS, use your terminal and navigate to the root folder for Concrete CMS.  This folder contains the following: **application, concrete, packages, updates, index.php**.  Then run the following commands:  
