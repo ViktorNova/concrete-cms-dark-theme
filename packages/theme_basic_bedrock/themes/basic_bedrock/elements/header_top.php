@@ -1,6 +1,6 @@
 <?php defined('C5_EXECUTE') or die("Access Denied."); ?>
 <!DOCTYPE html>
-<html lang="<?php echo Localization::activeLanguage() ?>">
+<html lang="<?php echo Localization::activeLanguage() ?>" data-bs-theme="dark">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <?php
