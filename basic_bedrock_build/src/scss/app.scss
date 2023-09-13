@@ -1,5 +1,10 @@
+// Import theme customization
+@import "variables";
+
 // Import base stylesheets
 @import "~@concretecms/bedrock/assets/bedrock/scss/frontend";
+// this already gets imported later, so leave it out:
+// @import "~bootstrap/scss/variables-dark";
 
 // FRONT END - Follow these and make files in their corresponding folders to add customizations.
 // Check the FEATURES.md file for how these line up with blocks and functionalities.
