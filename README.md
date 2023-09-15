@@ -76,10 +76,10 @@ This is really stupid, and I hope they change this in the future.
     cd ..
 
     ```
-    Everything should be moved to their correct places and the repository directory should be removed now.
+    Everything should be linked to their correct places and the repository directory should be removed now.
     You should be able to install the package / theme and go to your **basic_bedrock_build** folder and run **npm install** then **npm run prod**.
 4. **Manual Install**
-   1. git clone git clone https://github.com/ViktorNova/concrete-cms-dark-theme.git where ever you want to temporarily download these files
+   1. git clone https://github.com/ViktorNova/concrete-cms-dark-theme.git where ever you want to temporarily download these files
    2. Symlink the **basic_bedrock_build** folder to the root / public folder of your Concrete CMS site.  It should be on the same level as your application, concrete, and packages folder.
    3. Symlink the **theme_basic_bedrock** within the packages folder to your Concrete CMS packages folder.
    4. Done, you should be able to install the package / theme and go to your **basic_bedrock_build** folder and run **npm install** then **npm run prod**.
