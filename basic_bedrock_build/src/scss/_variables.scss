@@ -1,19 +1,46 @@
 // Define colors 
+
+$body-bg: #000000;
+
 $primary: #4c00ff;
 $secondary: #06fff7;
 $light: #96f2a3;
 $dark: #050066;
-$body-bg: #000000;
 
+$link-color: #00aaff;
+$link-hover-color: #fff;
 
-$info:          $secondary !default;
-$warning:       #ff00fb !default;
-$danger:        #f00 !default;
+$info:          $secondary;
+$warning:       #ff00fb;
+$danger:        #f00;
 $success:       #0f0;
 
 
-// Start with Bootstrap dark theme
-// @import "~bootstrap/scss/variables-dark";
+// Bootstrap is light by default. We lean on Bootstrap dark theme
+// to fill in the gaps, but colorize it with these colors
 
+// Main text and background color
+$body-color-dark:                   $primary;
+$body-bg-dark:                      $body-bg;
 
+$link-color-dark:                   $link-color;
+$link-hover-color-dark:             $link-hover-color;
 
+$body-secondary-color-dark:         $body-bg;
+$body-secondary-bg-dark:            $primary;
+
+$body-tertiary-color-dark:          rgba($body-color-dark, .5) !default;
+$body-tertiary-bg-dark:             $secondary;
+
+// These are copied over form stock variables-dark, but are commented out.
+// To override the Boostrap Dark defaults, uncomment these and change them.
+// Note that named colors (white, gray-700, etc) aren't yet defined here, 
+// so those variables will need to be replaced
+
+//$body-emphasis-color-dark:          $white !default;
+//$border-color-dark:                 $gray-700 !default;
+//$border-color-translucent-dark:     rgba($white, .15) !default;
+//$headings-color-dark:               inherit !default;
+//$link-color-dark:                   tint-color($primary, 40%) !default;
+//$link-hover-color-dark:             shift-color($link-color-dark, -$link-shade-percentage) !default;
+//$code-color-dark:                   tint-color($code-color, 40%) !default;
