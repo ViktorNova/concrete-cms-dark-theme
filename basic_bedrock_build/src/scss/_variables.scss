@@ -32,7 +32,7 @@ $body-secondary-bg-dark:            $primary;
 $body-tertiary-color-dark:          rgba($body-color-dark, .5) !default;
 $body-tertiary-bg-dark:             $secondary;
 
-// These are copied over form stock variables-dark, but are commented out.
+// These are copied over form variables-dark, but are commented out
 // To override the Boostrap Dark defaults, uncomment these and change them.
 // Note that named colors (white, gray-700, etc) aren't yet defined here, 
 // so those variables will need to be replaced
@@ -44,3 +44,4 @@ $body-tertiary-bg-dark:             $secondary;
 //$link-color-dark:                   tint-color($primary, 40%) !default;
 //$link-hover-color-dark:             shift-color($link-color-dark, -$link-shade-percentage) !default;
 //$code-color-dark:                   tint-color($code-color, 40%) !default;
+
