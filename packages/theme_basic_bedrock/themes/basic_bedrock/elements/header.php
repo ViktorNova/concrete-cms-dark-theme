@@ -28,8 +28,8 @@ $view->inc('elements/header_top.php');
 
 
 <div class="nav-container container">
-	<nav class="navbar">
-	        <?php
+	<nav class="navbar fixed-top">
+        <?php
             $a = new GlobalArea('Navigation');
             $a->setBlockLimit(1);
             $a->display($c);
