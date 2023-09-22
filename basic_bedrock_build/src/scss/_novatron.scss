@@ -1,0 +1,35 @@
+.nav-container {
+
+	ul.nav {
+		
+		li {
+			transform: rotate(-45deg);
+			
+			a {
+				padding: 2px 8px;
+				margin: 0 4px;
+				text-decoration: none;
+				color: #000;
+				background-color: #00aaff;
+				transition: background-color 1.5s ease-in-out;
+				box-shadow: 0 0 25px #000;
+
+				
+				&:hover {
+					background-color: #fff;
+					transition: background-color .2s ease-in-out;
+				}
+			}		
+		}
+		
+		li.nav-selected {
+			a {
+				background-color: transparent;
+				color: #00aaff;
+				border: 2px solid #00aaff;
+				// box-shadow: 0 0 25px #fff;
+			}
+		}
+	
+	}
+}
