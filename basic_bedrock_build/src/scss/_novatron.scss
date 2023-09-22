@@ -3,17 +3,21 @@
 	ul.nav {
 		
 		li {
-			transform: rotate(-45deg);
+			/* transform: rotate(-45deg); */
 			
 			a {
-				padding: 2px 8px;
+				padding: 2px 20px;
 				margin: 0 4px;
 				text-decoration: none;
 				color: #000;
 				background-color: #00aaff;
 				transition: background-color 1.5s ease-in-out;
 				box-shadow: 0 0 25px #000;
-
+			    border-radius: 24px;
+			    font-family: courier, serif;
+			    text-transform: uppercase;
+			    font-weight: 600;
+			    font-size: 26px;
 				
 				&:hover {
 					background-color: #fff;
