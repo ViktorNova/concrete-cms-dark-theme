@@ -28,7 +28,7 @@ $view->inc('elements/header_top.php');
 
 
 <div class="nav-container container">
-	<nav class="navbar fixed-top">
+	<nav class="navbar">
 	        <?php
             $a = new GlobalArea('Navigation');
             $a->setBlockLimit(1);
@@ -37,8 +37,3 @@ $view->inc('elements/header_top.php');
 
 	</nav>
 </div>
-
-    <div class="row">
-        <div class="col-md-12">
-        </div>
-    </div>
