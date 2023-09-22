@@ -24,14 +24,21 @@ $view->inc('elements/header_top.php');
         </div>
     </div>
 </header>
+
+
+
 <div class="nav-container container">
-    <div class="row">
-        <div class="col-md-12">
-            <?php
+	<nav class="navbar fixed-top">
+	        <?php
             $a = new GlobalArea('Navigation');
             $a->setBlockLimit(1);
             $a->display($c);
             ?>
+
+	</nav>
+</div>
+
+    <div class="row">
+        <div class="col-md-12">
         </div>
     </div>
-</div>
