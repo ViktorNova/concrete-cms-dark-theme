@@ -1,22 +1,21 @@
-// Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Six+Caps&family=Tulpen+One&family=Voltaire&display=swap');
 
-body,html {
-	font-family: 'Voltaire', sans-serif;
+// ################ BACKGROUND  ################
+
+body {
+	background: url("https://beta.thesecretlight.com/application/files/9216/9543/1056/Home1-scanlines-4k2.jpg");
+	background-size: 100vw;
+	background-repeat: no-repeat;	
 }
 
-h2,h3 {
-	font-family: 'Tulpen One', cursive;
-}
+// ################ NAVIGATION  ################
 
 .nav-container {
 
 	ul.nav {
 		font-family: 'Six Caps', 'Impact', sans-serif;
-	    font-family: courier, serif;
 	    text-transform: uppercase;
 	    font-weight: 600;
-	    font-size: 26px;
+	    font-size: 1.4rem;
 		
 		li {
 			/* transform: rotate(-45deg); */
@@ -25,14 +24,14 @@ h2,h3 {
 				padding: 2px 20px;
 				margin: 0 4px;
 				text-decoration: none;
-				color: #000;
-				background-color: #00aaff;
+				color: $black;
+				background-color: $link-color;
 				transition: background-color 1.5s ease-in-out;
-				box-shadow: 0 0 25px #000;
+				box-shadow: 0 0 25px $black;
 			    border-radius: 24px;
 				
 				&:hover {
-					background-color: #fff;
+					background-color: $white;
 					transition: background-color .2s ease-in-out;
 				}
 			}		
@@ -41,8 +40,8 @@ h2,h3 {
 		li.nav-selected {
 			a {
 				background-color: transparent;
-				color: #00aaff;
-				border: 2px solid #00aaff;
+				color: $link-color;
+				border: 2px solid $link-color;
 				// box-shadow: 0 0 25px #fff;
 			}
 		}

@@ -1,0 +1,22 @@
+// ################ TYPOGRAPHY  ################ 
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&family=Tulpen+One&family=Voltaire&display=swap');
+
+// Override Bootstrap fonts
+$headings-font-family: var(--headings-font-family), var(--bs-font-sans-serif);
+$body-font-family: var(--body-font-family), var(--bs-font-sans-serif);
+
+:root {
+	--headings-font-family: 'Tulpen One', 'Impact';
+	--body-font-family: 'Voltaire', sans-serif;
+}
+
+html {
+	// All other font sizes are derived from this
+	// One font-size to rule them all
+	font-size: 24px; 
+}
+
+h2 {
+	color: $white;
+}

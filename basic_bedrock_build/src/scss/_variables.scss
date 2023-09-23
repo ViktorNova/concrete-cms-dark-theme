@@ -1,7 +1,8 @@
 // Define colors 
+$white: #fff;
+$black: #000;
 
 $body-bg: #000000;
-
 $primary: #4c00ff;
 $secondary: #06fff7;
 $light: #96f2a3;
@@ -15,22 +16,18 @@ $warning:       #ff00fb;
 $danger:        #f00;
 $success:       #0f0;
 
-
 // Bootstrap is light by default. We lean on Bootstrap dark theme
 // to fill in the gaps, but colorize it with these colors
 
 // Main text and background color
-$body-color-dark:                   $primary;
-$body-bg-dark:                      $body-bg;
-
-$link-color-dark:                   $link-color;
-$link-hover-color-dark:             $link-hover-color;
-
-$body-secondary-color-dark:         $body-bg;
-$body-secondary-bg-dark:            $primary;
-
-$body-tertiary-color-dark:          rgba($body-color-dark, .5) !default;
-$body-tertiary-bg-dark:             $secondary;
+$body-color-dark:             $primary;
+$body-bg-dark:                $body-bg;
+$link-color-dark:             $link-color;
+$link-hover-color-dark:       $link-hover-color;
+$body-secondary-color-dark:   $body-bg;
+$body-secondary-bg-dark:      $primary;
+$body-tertiary-color-dark:    rgba($body-color-dark, .5) !default;
+$body-tertiary-bg-dark:       $secondary;
 
 // These are copied over form variables-dark, but are commented out
 // To override the Boostrap Dark defaults, uncomment these and change them.
