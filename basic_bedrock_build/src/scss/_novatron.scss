@@ -1,6 +1,22 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&family=Tulpen+One&family=Voltaire&display=swap');
+
+body,html {
+	font-family: 'Voltaire', sans-serif;
+}
+
+h2,h3 {
+	font-family: 'Tulpen One', cursive;
+}
+
 .nav-container {
 
 	ul.nav {
+		font-family: 'Six Caps', 'Impact', sans-serif;
+	    font-family: courier, serif;
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    font-size: 26px;
 		
 		li {
 			/* transform: rotate(-45deg); */
@@ -14,10 +30,6 @@
 				transition: background-color 1.5s ease-in-out;
 				box-shadow: 0 0 25px #000;
 			    border-radius: 24px;
-			    font-family: courier, serif;
-			    text-transform: uppercase;
-			    font-weight: 600;
-			    font-size: 26px;
 				
 				&:hover {
 					background-color: #fff;
