@@ -7,13 +7,13 @@ use Concrete\Core\Area\GlobalArea;
     <section class="mb-4">
         <div class="container fixed-bottom">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 footer-column-1">
                     <?php
                     $area = new GlobalArea('Footer Column 1');
                     $area->display();
                     ?>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 footer-column-2">
                     <?php
                     $area = new GlobalArea('Footer Column 2');
                     $area->display();
