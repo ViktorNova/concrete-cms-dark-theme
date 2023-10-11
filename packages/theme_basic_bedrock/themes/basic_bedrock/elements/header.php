@@ -5,8 +5,8 @@ $view->inc('elements/header_top.php');
 ?>
 
 <header>
-    <div class="container">
-        <div class="row site-top-bar fixed-top">
+    <div class="container fixed-top">
+        <div class="row site-top-bar">
             <div class="col-md-5">
                 <?php
                 $a = new GlobalArea('Logo');

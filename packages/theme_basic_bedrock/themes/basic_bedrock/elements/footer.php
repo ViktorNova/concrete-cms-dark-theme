@@ -5,7 +5,7 @@ use Concrete\Core\Area\GlobalArea;
 
 <footer>
     <section class="mb-4">
-        <div class="container">
+        <div class="container fixed-bottom">
             <div class="row">
                 <div class="col-md-8">
                     <?php
