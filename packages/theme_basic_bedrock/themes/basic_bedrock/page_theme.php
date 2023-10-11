@@ -211,14 +211,17 @@ class PageTheme extends Theme implements ThemeProviderInterface
     // }
 
     //Any block defined by key will have the array of classes available in the advanced dropdown of the Custom Design toolbar
-    // public function getThemeBlockClasses()
-    // {
-    //     return [
-    //         'image' => [
-    //             'class-name'
-    //         ]
-    //     ];
-    // }
+    public function getThemeBlockClasses()
+    {
+        return [
+            'image' => [
+                'custom-class-name'
+            ],
+            'auto-nav' => [
+                'ms-auto'
+            ]
+        ];
+    }
 
     // Any Area with the Key name will have the array of classes available in the advanced dropdown of the Custom Design toolbar
     // public function getThemeAreaClasses()
