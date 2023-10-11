@@ -12,26 +12,28 @@ body {
 .nav-container {
 
 	ul.nav {
+		margin-left: auto !important; /* align right */
 		font-family: 'Six Caps', 'Impact', sans-serif;
 	    text-transform: uppercase;
 	    font-weight: 600;
 	    font-size: 1.4rem;
-		
+	    letter-spacing: .04rem;
+				
 		li {
-			/* transform: rotate(-45deg); */
+			transform: skewX(-20deg);
 			
 			a {
-				padding: 2px 20px;
+				padding: 2px 10px;
 				margin: 0 4px;
 				text-decoration: none;
 				color: $black;
-				background-color: $link-color;
+				background-color: rgba($link-color,.9);
 				transition: background-color 1.5s ease-in-out;
 				box-shadow: 0 0 25px $black;
-			    border-radius: 24px;
+			    /* border-radius: 24px; */
 				
 				&:hover {
-					background-color: $white;
+					background-color: rgba($white,.8);
 					transition: background-color .2s ease-in-out;
 				}
 			}		
