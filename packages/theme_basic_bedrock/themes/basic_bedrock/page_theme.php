@@ -217,7 +217,7 @@ class PageTheme extends Theme implements ThemeProviderInterface
             'image' => [
                 'custom-class-name'
             ],
-            'auto-nav' => [
+            'nav' => [
                 'ms-auto'
             ]
         ];
