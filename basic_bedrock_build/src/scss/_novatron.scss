@@ -66,3 +66,12 @@ header {
 		}
 
 }
+
+// ########### CONCRETE FIXES  #############
+
+/* Edit mode weirdness  */
+html.ccm-edit-mode {  
+    .fixed-top {
+    	z-index: 0;
+    }  
+}
