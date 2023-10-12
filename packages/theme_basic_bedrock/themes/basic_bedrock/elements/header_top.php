@@ -12,12 +12,6 @@
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<?php $cp = new Permissions($c); if($cp->canViewToolbar()){?>
-	    <style media="screen">
-	        nav.navbar {margin-top:48px;}
-	    </style>
-	<?php } ?>
-
 </head>
 <body>
 

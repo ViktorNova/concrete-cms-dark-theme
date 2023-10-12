@@ -69,11 +69,21 @@ header {
 
 // ########### CONCRETE FIXES  #############
 
-/* This prevents fixed-top from covering Concrete clickables */
-.fixed-top {
-    	z-index: 0;
-}  
+html.ccm-toolbar-visible ccm-panel-ready {
 
-/* Edit mode weirdness  */
+	nav.navbar {
+		margin-top: 48px;
+	}
+
+	/* This prevents fixed-top from covering Concrete clickables */
+	container.fixed-top {
+	    	z-index: 0 !important;
+	}  
+}
+
+/* Edit mode */
 html.ccm-edit-mode {  
+	container.fixed-top {
+	    	z-index: 0 !important;
+	}  
 }
