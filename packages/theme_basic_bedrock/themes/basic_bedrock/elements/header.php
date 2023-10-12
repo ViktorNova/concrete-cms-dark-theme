@@ -7,14 +7,14 @@ $view->inc('elements/header_top.php');
 <header>
     <div class="container fixed-top">
         <div class="row site-top-bar">
-            <div class="col-md-5">
+            <div class="col-md-2">
                 <?php
                 $a = new GlobalArea('Logo');
                 $a->setBlockLimit(1);
                 $a->display();
                 ?>
             </div>
-			<div class="col-md-7 nav-container">
+			<div class="col-md-10 nav-container">
 				<nav class="navbar">
 			        <?php
 			            $a = new GlobalArea('Navigation');
