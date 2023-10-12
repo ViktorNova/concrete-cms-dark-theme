@@ -69,9 +69,11 @@ header {
 
 // ########### CONCRETE FIXES  #############
 
+/* This prevents fixed-top from covering Concrete clickables */
+.fixed-top {
+    	z-index: 0;
+}  
+
 /* Edit mode weirdness  */
 html.ccm-edit-mode {  
-    .fixed-top {
-    	z-index: 0;
-    }  
 }
