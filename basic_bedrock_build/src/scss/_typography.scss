@@ -11,8 +11,8 @@
 // 	--body-font-family: 'Voltaire', sans-serif;
 // }
 
+$bs-font-sans-serif: 'Voltaire', 'Courier New', sans-serif;
 $headings-font-family: 'Tulpen One', 'Impact', serif;
-$body-font-family: 'Voltaire', sans-serif;
 
 html {
 	// All other font sizes are derived from this
@@ -20,6 +20,3 @@ html {
 	font-size: 24px; 
 }
 
-h2 {
-	color: $white;
-}
