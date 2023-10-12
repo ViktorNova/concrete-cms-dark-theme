@@ -39,7 +39,7 @@ header {
 			    /* border-radius: 24px; */
 				
 				&:hover {
-					background-color: rgba($white,.6);
+					background-color: $nav-hover-bkg-color;
 					transition: background-color .2s ease-in-out;
 				}
 			}		
@@ -62,7 +62,7 @@ header {
 .footer-column-1 {
 
 		picture img {
-    		box-shadow: 0 0 100px black, 0 0 75px black, 0 0 50px black, 0 0 20px black, 0 0 10px black,0 0 5px black;
+    		box-shadow: 0 0 150px black, 0 0 100px black, 0 0 75px black, 0 0 30px black, 0 0 15px black,0 0 5px black;
 		}
 
 }
