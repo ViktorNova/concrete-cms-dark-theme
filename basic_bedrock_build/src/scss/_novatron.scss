@@ -74,18 +74,12 @@ header.sitewide-header {
 
 // ########### CONCRETE FIXES  #############
 
+/* Logged in */
 html.ccm-toolbar-visible {
 
-	nav.navbar {
-		margin-top: 48px;
-	}
-
-	/* This prevents fixed-top from covering Concrete clickables */
-	container.fixed-top {
-	    	z-index: 0 !important;
-	}  
 }
 
 /* Edit mode */
 html.ccm-edit-mode {  
+
 }
