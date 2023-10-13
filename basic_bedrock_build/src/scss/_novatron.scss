@@ -82,8 +82,8 @@ header.sitewide-header {
 html.ccm-toolbar-visible {
 
 	header.sitewide-header {
-		position: relative;
-		/* margin-top: 48px; */
+		margin-top: 48px; 
+		/* position: relative; */
 		/* top: 0; */
 		/* right: 0; */
 		/* left: 0; */
@@ -99,5 +99,9 @@ html.ccm-toolbar-visible {
 /* Edit mode */
 html.ccm-edit-mode {  
 
+	header.sitewide-header {
+		margin-top: 48px; 
+		/* position: relative; */
+	}
 
 }
