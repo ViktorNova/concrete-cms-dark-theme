@@ -27,4 +27,5 @@ $view->inc('elements/header_top.php');
     </div>
 </header>
 
-
+<div class="header-spacer">
+</div>

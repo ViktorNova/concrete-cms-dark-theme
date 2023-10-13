@@ -16,10 +16,10 @@ header.sitewide-header {
 	left: 0;
 	/* z-index: 0 !important; */
 
-	container.sitewide-header-container {
-		margin-bottom: 160px;
-		
-	}
+}
+
+.header-spacer {
+	height: 160px;
 }
 
 // ################ NAVIGATION  ################
@@ -100,7 +100,7 @@ html.ccm-toolbar-visible {
 html.ccm-edit-mode {  
 
 	header.sitewide-header {
-		margin-top: 48px; 
+		/* margin-top: 48px; */
 		/* position: relative; */
 	}
 
