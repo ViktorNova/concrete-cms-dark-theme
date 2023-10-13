@@ -15,7 +15,11 @@ header.sitewide-header {
 	right: 0;
 	left: 0;
 	/* z-index: 0 !important; */
-	margin-bottom: 160px;
+
+	container.sitewide-header-container {
+		margin-bottom: 160px;
+		
+	}
 }
 
 // ################ NAVIGATION  ################
@@ -77,9 +81,23 @@ header.sitewide-header {
 /* Logged in */
 html.ccm-toolbar-visible {
 
+	header.sitewide-header {
+		position: relative;
+		margin-top: 48px;
+		/* top: 0; */
+		/* right: 0; */
+		/* left: 0; */
+		/* z-index: 0 !important; */
+
+		container.sitewide-header-container {
+
+		}
+	}
+
 }
 
 /* Edit mode */
 html.ccm-edit-mode {  
+
 
 }
