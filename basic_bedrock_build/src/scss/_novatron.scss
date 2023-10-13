@@ -9,7 +9,12 @@ body {
 
 // ################   HEADER    ################
 
-header {
+header.sitewide-header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	/* z-index: 0 !important; */
 	margin-bottom: 160px;
 }
 
@@ -83,7 +88,4 @@ html.ccm-toolbar-visible {
 
 /* Edit mode */
 html.ccm-edit-mode {  
-	container.fixed-top {
-	    	z-index: 0 !important;
-	}  
 }

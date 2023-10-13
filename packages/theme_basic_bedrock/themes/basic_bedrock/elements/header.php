@@ -4,8 +4,8 @@ use Concrete\Core\Area\GlobalArea;
 $view->inc('elements/header_top.php');
 ?>
 
-<header>
-    <div class="container fixed-top">
+<header class="sidewide-header">
+    <div class="container sidewide-header-container">
         <div class="row site-top-bar">
             <div class="col-md-2">
                 <?php
