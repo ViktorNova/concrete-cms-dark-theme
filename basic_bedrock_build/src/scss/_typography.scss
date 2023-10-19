@@ -18,6 +18,24 @@ html {
 	// All other font sizes are derived from this
 	// One font-size to rule them all
 	font-size: 24px; 
+
+	@media (min-width: 576px)  {
+	}
+
+	@media (min-width: 768px) {
+	}
+
+	@media (min-width: 992px) {
+	}
+
+	@media (min-width: 1200px) {
+		font-size: 28px;
+	}
+
+	@media (min-width: 1400px) {
+		font-size: 34px
+	}
+
 }
 
 h2,.h2 {
