@@ -5,16 +5,16 @@ $view->inc('elements/header_top.php');
 ?>
 
 <header class="sitewide-header">
-    <div class="container sitewide-header-container">
+    <div class="container-fluid sitewide-header-container">
         <div class="row site-top-bar">
-            <div class="col-md-2">
+            <div class="col-md-2 topbar-left">
                 <?php
                 $a = new GlobalArea('Logo');
                 $a->setBlockLimit(1);
                 $a->display();
                 ?>
             </div>
-			<div class="col-md-10 nav-container">
+			<div class="col-md-10 topbar-right nav-container">
 				<nav class="navbar">
 			        <?php
 			            $a = new GlobalArea('Navigation');
